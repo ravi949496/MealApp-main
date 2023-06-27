@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder App</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>CHOOSE YOUR FAVOURITE MEAL HERE ⬇⬇</h1>
+        <div class="flex">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search For Meal">
+                <button class="search-btn" type="submit">
+                    <i><span class="material-symbols-outlined">
+                            search
+                        </span></i>
+                 </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i><span class="material-symbols-outlined">
+                        shuffle
+                    </span></i>
+            </button>
+        </div>
+        <div class="result-heading"></div>
+        <div class="meals" id="meals"></div>
+        <div id="single-meal">
+            <div class="single-meal">
+                <h1>Lamb Tagine</h1>
+                <img src="https://www.themealdb.com/images/media/meals/yuwtuu1511295751.jpg" alt="Lamb Tagine">
+                <div class = "single-meal-info">
+                    <p>Lamb</p>
+                    <p>Moroccan</p>
+                    <div class = "main">
+                        <p>
+                            Heat the olive oil in a heavy-based pan and add the onion and carrot. Cook for 3- 4 mins until softened.
+                            Add the diced lamb and brown all over. Stir in the garlic and all the spices and cook for a few mins more or until the aromas are released.
+                            Add the honey and apricots, crumble in the stock cube and pour over roughly 500ml boiling water or enough to cover the meat. Give it a good stir and bring to the boil. Turn down to a simmer, put the lid on and cook for 1 hour.
+                            Remove the lid and cook for a further 30 mins, then stir in the squash. Cook for 20 – 30 mins more until the squash is soft and the lamb is tender. Serve alongside rice or couscous and sprinkle with parsley and pine nuts, if using.
+                        </p>
+                        <h2>Ingredients</h2>
+                        <ul>
+                            <li>Olive Oil - 2 tblsp</li>
+                            <li>Onion - 1 finely sliced</li>
+                            <li>Carrots - 2 chopped</li>
+                            <li>Lamb Leg - 500g</li>
+                            <li>Garlic - 2 cloves minced</li>
+                            <li>Cumin - 1/2 tsp</li>
+                            <li>Ginger - 1/2 tsp</li>
+                            <li>Safferon - 1/4 tsp</li>
+                            <li>Cinnamon - 1 tsp</li>
+                            <li>Honey - 1 tblsp</li>
+                            <li>Apricot - 100g</li>
+                            <li>Vegetable Stock Cube - 1</li>
+                            <li>Butternut Squash - 1 medium chopped</li>
+                            <li>Couscous Steamed</li>
+                            <li>Parsley - Chopped</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- owner -->
+        <div>
+       <h4>❤..Developed By Ravi teja..❤</h4>
+       </div>
+    <!-- Java Script link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
